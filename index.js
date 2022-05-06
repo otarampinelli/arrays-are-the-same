@@ -1,6 +1,11 @@
-function same(firstArray, secondArray) {
+module.exports = function arrayIsEqual(firstArray, secondArray) {
   const firstArrayFrequency = {};
   const secondArrayFrequency = {};
+
+
+  if (!Array.isArray(firstArray) || !Array.isArray(secondArray)) {
+    throw new Error('Is only accepts array as parameter')
+  }
 
   for (let val of firstArray) {
     firstArrayFrequency[val] = (firstArrayFrequency[val] || 0) + 1;
@@ -22,5 +27,3 @@ function same(firstArray, secondArray) {
 
   return true;
 }
-
-console.log(same([true, 1, false, 5, 2, 1], [true, 1, false, 5, 2, 1]));
