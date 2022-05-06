@@ -1,4 +1,4 @@
-# array-is-equal [![NPM version](https://img.shields.io/npm/v/array-is-equal.svg?style=flat)](https://www.npmjs.com/package/array-is-equal) [![NPM monthly downloads](https://img.shields.io/npm/dm/array-is-equal.svg?style=flat)](https://npmjs.org/package/array-is-equal) [![NPM total downloads](https://img.shields.io/npm/dt/array-is-equal.svg?style=flat)](https://npmjs.org/package/array-is-equal)
+# arrays-are-the-same [![NPM version](https://img.shields.io/npm/v/arrays-are-the-same.svg?style=flat)](https://www.npmjs.com/package/arrays-are-the-same) [![NPM monthly downloads](https://img.shields.io/npm/dm/arrays-are-the-same.svg?style=flat)](https://npmjs.org/package/arrays-are-the-same) [![NPM total downloads](https://img.shields.io/npm/dt/arrays-are-the-same.svg?style=flat)](https://npmjs.org/package/arrays-are-the-same)
 
 > Return even or odd to as result to a given number.
 
@@ -8,7 +8,7 @@
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save array-is-equal
+$ npm install --save arrays-are-the-same
 ```
 
 ## Usage
@@ -16,10 +16,10 @@ $ npm install --save array-is-equal
 Only works with arrays.
 
 ```js
-const arrayIsEqual = require('array-is-equal');
+const arraysAreTheSame = require('arrays-are-the-same');
 
-console.log(arrayIsEqual([1, 'name', 3, false, '5', true], ['5', 'name', 3, true, 1, false])); //=> true
-console.log(arrayIsEqual([1, 'name', 3, true, '5', 'first'], ['5', 'name', 3, true, 1, false])); //=> false
+console.log(arraysAreTheSame([1, 'name', 3, false, '5', true], ['5', 'name', 3, true, 1, false])); //=> true
+console.log(arraysAreTheSame([1, 'name', 3, true, '5', 'first'], ['5', 'name', 3, true, 1, false])); //=> false
 
 ```
 

@@ -1,4 +1,4 @@
-module.exports = function arrayIsEqual(firstArray, secondArray) {
+module.exports = function arraysAreTheSame(firstArray, secondArray) {
   const firstArrayFrequency = {};
   const secondArrayFrequency = {};
 
