@@ -1,0 +1,29 @@
+{
+  "name": "array-is-equal",
+  "version": "1.0.0",
+  "description": "Verify with the arrays are equal",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js",
+    "lint:fix": "eslint --fix",
+    "test": "jest"
+  },
+  "keywords": [
+    "array",
+    "count",
+    "filter",
+    "string",
+    "is",
+    "math",
+    "numeric",
+    "odd",
+    "even",
+    "integer"
+  ],
+  "author": "Otavio Rampinelli <otaviorampinellielias@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^28.1.0"
+  }
+}
