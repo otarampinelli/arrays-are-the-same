@@ -1,7 +1,6 @@
 # arrays-are-the-same [![NPM version](https://img.shields.io/npm/v/arrays-are-the-same.svg?style=flat)](https://www.npmjs.com/package/arrays-are-the-same) [![NPM monthly downloads](https://img.shields.io/npm/dm/arrays-are-the-same.svg?style=flat)](https://npmjs.org/package/arrays-are-the-same) [![NPM total downloads](https://img.shields.io/npm/dt/arrays-are-the-same.svg?style=flat)](https://npmjs.org/package/arrays-are-the-same)
 
-> Return true or false to as result to a given array.
-
+> Return true or false as result to a given array.
 
 ## Install
 
