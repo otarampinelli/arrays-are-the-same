@@ -4,7 +4,7 @@ module.exports = function arraysAreTheSame(firstArray, secondArray) {
 
 
   if (!Array.isArray(firstArray) || !Array.isArray(secondArray)) {
-    throw new Error('Is only accepts array as parameter')
+    throw new Error('Only accepts array as parameter')
   }
 
   for (let val of firstArray) {
